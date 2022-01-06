@@ -15,8 +15,8 @@ struct MainView: View {
     var body: some View{
     ZStack()
     {
-        Color.red.ignoresSafeArea()
-        Text("Hello, world!")
+        Color.blue.ignoresSafeArea()
+        Text("Bak madarchod")
             .padding()
     }}
 
