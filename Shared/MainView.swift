@@ -12,10 +12,13 @@ import SwiftUI
 struct MainView: View {
 
 
-    var body: some View {
+    var body: some View{
+    ZStack()
+    {
+        Color.red.ignoresSafeArea()
         Text("Hello, world!")
             .padding()
-    }
+    }}
 
 
 }
