@@ -13,8 +13,8 @@
 		5EAF5A9D2787276300CC196C /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAF5A9C2787276300CC196C /* Tests_macOSLaunchTests.swift */; };
 		5EAF5A9E2787276300CC196C /* fApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAF5A762787276200CC196C /* fApp.swift */; };
 		5EAF5A9F2787276300CC196C /* fApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAF5A762787276200CC196C /* fApp.swift */; };
-		5EAF5AA02787276300CC196C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAF5A772787276200CC196C /* ContentView.swift */; };
-		5EAF5AA12787276300CC196C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAF5A772787276200CC196C /* ContentView.swift */; };
+		5EAF5AA02787276300CC196C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAF5A772787276200CC196C /* MainView.swift */; };
+		5EAF5AA12787276300CC196C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAF5A772787276200CC196C /* MainView.swift */; };
 		5EAF5AA22787276300CC196C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EAF5A782787276300CC196C /* Assets.xcassets */; };
 		5EAF5AA32787276300CC196C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EAF5A782787276300CC196C /* Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		5EAF5A762787276200CC196C /* fApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fApp.swift; sourceTree = "<group>"; };
-		5EAF5A772787276200CC196C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5EAF5A772787276200CC196C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		5EAF5A782787276300CC196C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EAF5A7D2787276300CC196C /* f.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = f.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EAF5A832787276300CC196C /* f.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = f.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				5EAF5A762787276200CC196C /* fApp.swift */,
-				5EAF5A772787276200CC196C /* ContentView.swift */,
+				5EAF5A772787276200CC196C /* MainView.swift */,
 				5EAF5A782787276300CC196C /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -299,7 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EAF5AA02787276300CC196C /* ContentView.swift in Sources */,
+				5EAF5AA02787276300CC196C /* MainView.swift in Sources */,
 				5EAF5A9E2787276300CC196C /* fApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,7 +308,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EAF5AA12787276300CC196C /* ContentView.swift in Sources */,
+				5EAF5AA12787276300CC196C /* MainView.swift in Sources */,
 				5EAF5A9F2787276300CC196C /* fApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
